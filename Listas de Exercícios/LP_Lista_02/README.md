@@ -18,12 +18,9 @@ Para mais informações acesse [Aula 03: Fluxogramas.](https://cainaantunes.noti
 
 1. Ler um número inteiro e exibir o seu dobro.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex1 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite um número inteiro: ");
@@ -38,12 +35,9 @@ public class ex1 {
 ```
 2. Ler um número inteiro e exibir o seu quadrado.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex2 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite um número: ");
@@ -57,12 +51,9 @@ public class ex2 {
 
 3. Ler um número real e exibir a quinta parte deste número.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex3 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite um número: ");
@@ -77,12 +68,9 @@ public class ex3 {
 
 4. Ler duas notas N1 e N2 e exibir a média.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex4 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite a primeira nota: ");
@@ -98,12 +86,9 @@ public class ex4 {
 
 5. Ler uma velocidade em $Km/h$ e converter para $m/s$.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex5 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite uma velocidade em km/h: ");
@@ -117,12 +102,9 @@ public class ex5 {
 
 6. Ler uma velocidade em $m/s$ e converter para $km/h$.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex6 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite uma velocidade em m/s: ");
@@ -136,12 +118,9 @@ public class ex6 {
 
 7. Ler uma medida em milímetro e converter para polegadas.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex7 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite uma medida em milímetro");
@@ -155,12 +134,9 @@ public class ex7 {
 
 8. Ler uma medida em polegadas e converter para milímetros.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex8 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite uma medida em polegadas");
@@ -175,12 +151,9 @@ public class ex8 {
 9. Ler uma medida de distância em quilômetros e converter 
 para milhas.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex9 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite uma distância em quilômetros");
@@ -194,12 +167,9 @@ public class ex9 {
 
 10. Ler uma medida de distância em milhas e converter para quilômetros.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex10 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite uma distância em milhas");
@@ -213,12 +183,9 @@ public class ex10 {
 
 11. Entrar com o valor de temperatura em graus Celsius e exibir a temperaturacorrespondente em graus Fahrenheit.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex11 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite uma temperatura em celcius: ");
@@ -235,12 +202,9 @@ public class ex11 {
 
       >Obs.: N1 tem peso 1 e N2 tem peso 2 e resultadodeve estar entre 0 e 10.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex12 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite a primeira nota: ");
@@ -257,12 +221,9 @@ public class ex12 {
 
 13. Receber o raio e um círculo e calcular sua área.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex13 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite o raio de um círculo: ");
@@ -277,12 +238,9 @@ public class ex13 {
 
 14. Receber a base e a altura de um triângulo retângulo e calcular sua área.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex14 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite a base de um triângulo retângulo: ");
@@ -299,12 +257,9 @@ public class ex14 {
 
 15. Receber o raio e a altura de um cilindro e calcular seu volume.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex15 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite o raio de um cilindro");
@@ -321,12 +276,9 @@ public class ex15 {
 
 16. Receber o raio e a altura de um cone e calcular seu volume.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex16 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite o raio de um cone");
@@ -343,12 +295,9 @@ public class ex16 {
 
 17. Receber velocidade inicial, aceleração e tempo de percurso de um corpo e calcular sua velocidade.
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex17 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite a velocidade inicial");
@@ -369,12 +318,9 @@ public class ex17 {
 
       >Equação do primeiro grau: $ax + b = 0$
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex18 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.printf("Digite o coeficiente a: ");
@@ -392,12 +338,9 @@ public class ex18 {
 
       >Equação do segundo grau: $ax^2 + bx + c = 0$
 ```java
-package exercicios;
-
 import java.util.Scanner;
 
-public class ex19 {
-
+public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		System.out.printf("Digite o coeficiente a: ");
@@ -441,8 +384,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class ex20 {
-
+public class Main {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
