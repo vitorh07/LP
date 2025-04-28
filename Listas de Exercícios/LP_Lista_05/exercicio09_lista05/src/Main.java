@@ -1,15 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int[][] matriz = {{1,2,3,4,5},
-                {1,2,3,4,5},
-                {1,2,3,4,5},
-                {1,2,3,4,5},
-                {1,2,3,4,5}};
+        int[][] matriz = {
+                {5, 8, 12, 7, 6},
+                {9, 4, 3, 5, 11},
+                {13, 6, 2, 14, 9},
+                {8, 11, 5, 1, 4},
+                {3, 7, 9, 6, 10}
+        };
+
+        System.out.println("Diagonal Secundária:");
         for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                System.out.print(matriz[i][j]);
-            }
-            System.out.println();
+            System.out.print(matriz[i][4-i] + " ");
         }
     }
 }

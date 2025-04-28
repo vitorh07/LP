@@ -9,7 +9,7 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             System.out.println("v1 = "+ v1[i]);
         }
-
+        System.out.println("--------------------");
         for (int i = 0; i < 10; i++) {
             System.out.println("v2 = "+ v2[i]);
         }
