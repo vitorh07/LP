@@ -9,8 +9,8 @@ public class Main {
         };
 
         System.out.println("Diagonal Secundária:");
-        for (int i = 0; i < 5; i++) {
-            System.out.print(matriz[i][4-i] + " ");
+        for (int i = 0; i < matriz.length; i++) {
+            System.out.print(matriz[i][matriz.length-1-i] + " ");
         }
     }
 }

@@ -9,7 +9,7 @@ public class Main {
         };
 
         System.out.println("Diagonal Principal:");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < matriz.length; i++) {
             System.out.print(matriz[i][i] + " ");
         }
     }

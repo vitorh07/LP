@@ -12,18 +12,18 @@ public class Main {
         int maiorSomaColuna = Integer.MIN_VALUE;
         int somaLinha, somaColuna;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < matriz.length; i++) {
             somaLinha = 0;
-            for (int j = 0; j < 5; j++) {
+            for (int j = 0; j < matriz.length; j++) {
                 somaLinha += matriz[i][j];
             }
             if (somaLinha > maiorSomaLinha) {
                 maiorSomaLinha = somaLinha;
             }
         }
-        for (int j = 0; j < 5; j++) {
+        for (int j = 0; j < matriz.length; j++) {
             somaColuna = 0;
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < matriz.length; i++) {
                 somaColuna += matriz[i][j];
             }
             if (somaColuna > maiorSomaColuna) {
